@@ -1,0 +1,24 @@
+{
+  "name": "design-portfolio-site",
+  "version": "1.0.0",
+  "description": "Designer portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavrowlad/design-portfolio-site.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "lavrowlad@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavrowlad/design-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/lavrowlad/design-portfolio-site#readme"
+}
