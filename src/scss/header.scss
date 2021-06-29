@@ -1,5 +1,28 @@
 //=======================================================================
 .header {
-  
+  position: relative;
+  z-index: 100;
+
+  // .header__content
+  &__content {
+    max-width: 1054px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  // .header__menu
+  &__menu {
+    height: 82px;
+
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @media (max-width: $md3) {
+      height: 50px;
+    }
+  }
 }
 //=======================================================================
