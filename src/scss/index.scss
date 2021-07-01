@@ -138,5 +138,75 @@ body {
   }
 }
 //=======================================================================
+.info {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  
+  @media (max-width: $md3) {
+    font-size: 16px;
+    
+  }
+  
+  // .info__date
+  &__date {
+    white-space: nowrap;
+  }
+  
+  // .info__date
+  &__year {
+    display: inline-flex;
+    background-color: #142850;
+    color: #fff;
+    border-radius: 16px;
+    height: 25px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  
+  // .info__separator
+  &__separator {
+    margin: 0 15px;
+  }
+  
+  // .info__category
+  &__category {
+    color: #8695a4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+//=======================================================================
+.categories {
+  display: flex;
+  
+  @media (max-width: $md3) {
+    flex-direction: column;
+  }
+
+  // .categories__item
+  &__item {
+    position: relative;
+    
+    &:not(:last-child)::after {
+      content: ",";
+      margin-right: 10px;
+    }
+
+    @media (max-width: $md3) {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}
+//=======================================================================
 
 // /ОСНВОНОЙ БЛОК =======================================================
