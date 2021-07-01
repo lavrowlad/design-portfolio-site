@@ -182,10 +182,6 @@ body {
 //=======================================================================
 .categories {
   display: flex;
-  
-  @media (max-width: $md3) {
-    flex-direction: column;
-  }
 
   // .categories__item
   &__item {
@@ -196,7 +192,7 @@ body {
       margin-right: 10px;
     }
 
-    @media (max-width: $md3) {
+    @media (max-width: $md4) {
       &:not(:last-child) {
         margin-bottom: 10px;
 
