@@ -1,4 +1,4 @@
-//=======================================================================
+// HELLO SECTION ========================================================
 .hello {
   padding: 38px 0 71px 0;
 
@@ -81,4 +81,123 @@
     }
   }
 }
+// /HELLO SECTION =======================================================
+
+// RESENT-POSTS SECTION =================================================
+.recent-posts {
+  background-color: #edf7fa;
+  padding: 25px 0 13px 0;
+
+  @media (max-width: $md3) {
+    padding: 25px 0 23px 0;
+  }
+
+  // .recent-posts__container
+  &__container {}
+
+  // .recent-posts__header
+  &__header {
+    display: flex;
+    margin: 0 0 20px 0;
+  }
+
+  // .recent-posts__title
+  &__title {
+    padding: 0 20px 0 0;
+    flex: 1 1 auto;
+  }
+
+  // .recent-posts__view-all
+  &__view-all {
+    flex: 0 0 auto;
+    font-size: 16px;
+    line-height: 23 / 16 * 100%;
+    color: #00a8cc;
+
+    @media (max-width: $md3) {
+      display: none;
+    }
+  }
+
+  // .recent-posts__items
+  &__items {
+    margin: 0px -10px;
+
+    @media (min-width: $md3) {
+      display: flex;
+    }
+  }
+
+  // .recent-posts__column
+  &__column {
+    flex: 0 1 50%;
+    padding: 0px 10px;
+    margin: 0 0 17px 0;
+  }
+
+  // .recent-posts__item
+  &__item {}
+}
+
+.recent-post {
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+
+  *:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: $md3) {
+    padding: 15px;
+  }
+
+  // .recent-post__title
+  &__title {
+    display: inline-block;
+    margin: 0 0 17px 0;
+    color: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38 / 26 * 100%;
+
+    transition: color 0.3s ease 0s;
+
+    @media (min-width: $md3) {
+      &:hover {
+        color: #ff6464;
+      }
+    }
+
+    @media (max-width: $md3) {
+      font-size: 22px;
+      margin: 0 0 10px 0;
+    }
+  }
+
+  // .recent-post__info
+  &__info {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 26 / 18 * 100%;
+
+    span {
+      margin: 0 10px
+    }
+
+    @media (max-width: $md3) {
+      font-size: 16px;
+      margin: 0 0 10px 0;
+    }
+  }
+
+  //.recent-post__text
+  &__text {
+    margin: 0 0 15px 0;
+  }
+}
+// /RESENT-POSTS SECTION ================================================
+
 //=======================================================================
