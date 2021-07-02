@@ -1,5 +1,28 @@
 // ОСНОВНОЙ БЛОК ========================================================
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #21243d;
+  line-height: 60 / 44 * 100%;
 
+  @media (max-width: $md3) {
+    font-size: 32px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  color: #21243d;
+  line-height: 23 / 16 * 100%;
+}
+
+.title-posts {
+  font-size: 22px;
+  @media (max-width: $md3) {
+    text-align: center;
+    font-size: 18px;
+  }
+}
 // /ОСНОВНОЙ БЛОК =======================================================
 
 
