@@ -109,6 +109,8 @@ body {
 @import 'menu';
 @import 'works';
 @import 'article';
+@import 'blog';
+@import 'contacts';
 // /ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТРАНИЦ И ЭЛЕМЕНТОВ ==============================
 
 
@@ -119,7 +121,7 @@ body {
   flex: 1 1 auto;
   
   @media (max-width: $md3) {
-    padding: 30px 10px 0;
+    padding: 30px 0 0;
   }
 }
 //=======================================================================
